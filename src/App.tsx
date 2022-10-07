@@ -12,12 +12,12 @@ const chunk = (arr: Array<ReSpace>, size: number): Array<Array<ReSpace>> => {
 };
 
 function App() {
-  const [spaces, setSapces] = useState<Array<ReSpace>>([]);
+  const [spaces, setSpaces] = useState<Array<ReSpace>>([]);
   const [editing, setEditing] = useState<string>();
 
   async function init() {
     const spaces = await load();
-    setSapces(spaces);
+    setSpaces(spaces);
   }
 
   const save = async (ele: ReSpace) => {
@@ -28,11 +28,11 @@ function App() {
     await init();
   };
 
-  const handleChange = (id: string) => (eventvalue: string) => {
-    setSapces(
+  const handleChange = (id: string) => (eventValue: string) => {
+    setSpaces(
       spaces.map((space) => {
         if (space._id === id) {
-          return { ...space, physicsPath: eventvalue };
+          return { ...space, physicsPath: eventValue };
         }
         return space;
       })

@@ -1,13 +1,7 @@
-export class ReSpace {
+export type ReSpace = {
   _id: string;
   name: string;
   physicsPath: string | null;
-
-  constructor(_id: string, name: string, physicsPath: string) {
-    this._id = _id;
-    this.name = name;
-    this.physicsPath = physicsPath;
-  }
 }
 
 export const load = async (): Promise<Array<ReSpace>> => {

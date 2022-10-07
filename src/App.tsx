@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Card, Col, Row, Input, Button, Empty } from "@douyinfe/semi-ui";
 import "./App.css";
-import { load, ReSpace } from "./space";
+import { load, type ReSpace } from "./space";
 
 const chunk = (arr: Array<ReSpace>, size: number): Array<Array<ReSpace>> => {
   const ret = [];

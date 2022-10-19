@@ -1,10 +1,10 @@
-export type ReSpace = {
-  _id: string;
+export type SpaceVo = {
+  id: string;
   name: string;
-  physicsPath: string | null;
-}
+  physicsPath: string;
+};
 
-export const load = async (): Promise<Array<ReSpace>> => {
+export const load = async (): Promise<Array<SpaceVo>> => {
   const resp = await fetch("api/space", {
     method: "get",
   });

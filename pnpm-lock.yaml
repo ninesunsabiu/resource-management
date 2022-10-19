@@ -12,7 +12,7 @@ specifiers:
   vite: ^3.1.0
 
 dependencies:
-  '@douyinfe/semi-ui': 2.20.3_react-dom@18.2.0+react@18.2.0
+  "@douyinfe/semi-ui": 2.20.3_react-dom@18.2.0+react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -478,7 +478,10 @@ packages:
     dev: false
 
   /@douyinfe/semi-ui/2.20.3_react-dom@18.2.0+react@18.2.0:
-    resolution: {integrity: sha512-0YJvwsqtIq8ow5+O3pVoVmcWRVv6RMSyw1kUNqSbKHM0Y5nJCN+1Z3x1k8HXlwvJ9wC2Hch3DfECiAGOZJYrLA==}
+    resolution:
+      {
+        integrity: sha512-0YJvwsqtIq8ow5+O3pVoVmcWRVv6RMSyw1kUNqSbKHM0Y5nJCN+1Z3x1k8HXlwvJ9wC2Hch3DfECiAGOZJYrLA==,
+      }
     peerDependencies:
       react: ">=16.0.0"
       react-dom: ">=16.0.0"
@@ -1121,7 +1124,10 @@ packages:
     dev: false
 
   /react-draggable/4.4.5_react-dom@18.2.0+react@18.2.0:
-    resolution: {integrity: sha512-OMHzJdyJbYTZo4uQE393fHcqqPYsEtkjfMgvCHr6rejT+Ezn4OZbNyGH50vv+SunC1RMvwOTSWkEODQLzw1M9g==}
+    resolution:
+      {
+        integrity: sha512-OMHzJdyJbYTZo4uQE393fHcqqPYsEtkjfMgvCHr6rejT+Ezn4OZbNyGH50vv+SunC1RMvwOTSWkEODQLzw1M9g==,
+      }
     peerDependencies:
       react: ">= 16.3.0"
       react-dom: ">= 16.3.0"
@@ -1140,12 +1146,18 @@ packages:
     dev: false
 
   /react-refresh/0.14.0:
-    resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
-    engines: {node: '>=0.10.0'}
+    resolution:
+      {
+        integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==,
+      }
+    engines: { node: ">=0.10.0" }
     dev: true
 
   /react-resizable/1.11.1_react-dom@18.2.0+react@18.2.0:
-    resolution: {integrity: sha512-S70gbLaAYqjuAd49utRHibtHLrHXInh7GuOR+6OO6RO6uleQfuBnWmZjRABfqNEx3C3Z6VPLg0/0uOYFrkfu9Q==}
+    resolution:
+      {
+        integrity: sha512-S70gbLaAYqjuAd49utRHibtHLrHXInh7GuOR+6OO6RO6uleQfuBnWmZjRABfqNEx3C3Z6VPLg0/0uOYFrkfu9Q==,
+      }
     peerDependencies:
       react: 0.14.x || 15.x || 16.x || 17.x
       react-dom: 0.14.x || 15.x || 16.x || 17.x
@@ -1157,7 +1169,10 @@ packages:
     dev: false
 
   /react-sortable-hoc/2.0.0_react-dom@18.2.0+react@18.2.0:
-    resolution: {integrity: sha512-JZUw7hBsAHXK7PTyErJyI7SopSBFRcFHDjWW5SWjcugY0i6iH7f+eJkY8cJmGMlZ1C9xz1J3Vjz0plFpavVeRg==}
+    resolution:
+      {
+        integrity: sha512-JZUw7hBsAHXK7PTyErJyI7SopSBFRcFHDjWW5SWjcugY0i6iH7f+eJkY8cJmGMlZ1C9xz1J3Vjz0plFpavVeRg==,
+      }
     peerDependencies:
       react: ^16.3.0 || ^17.0.0
       react-dom: ^16.3.0 || ^17.0.0
@@ -1170,8 +1185,11 @@ packages:
     dev: false
 
   /react-window/1.8.7_react-dom@18.2.0+react@18.2.0:
-    resolution: {integrity: sha512-JHEZbPXBpKMmoNO1bNhoXOOLg/ujhL/BU4IqVU9r8eQPcy5KQnGHIHDRkJ0ns9IM5+Aq5LNwt3j8t3tIrePQzA==}
-    engines: {node: '>8.0.0'}
+    resolution:
+      {
+        integrity: sha512-JHEZbPXBpKMmoNO1bNhoXOOLg/ujhL/BU4IqVU9r8eQPcy5KQnGHIHDRkJ0ns9IM5+Aq5LNwt3j8t3tIrePQzA==,
+      }
+    engines: { node: ">8.0.0" }
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
       react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
